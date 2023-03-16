@@ -1,0 +1,425 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+leg {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.heder__background {
+  width: 100%;
+  height: 862px;
+  background-color: #e7c2ce;
+  opacity: 0.25;
+  position: absolute;
+}
+
+.heder__img {
+  margin-left: 247px;
+  margin-top: 10px;
+  width: 79px;
+  height: 79px;
+  position: absolute;
+}
+
+.heder__home {
+  margin-left: 592px;
+  position: absolute;
+  margin-top: 41px;
+  color: #D23166;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 18px;
+  width: 49px;
+  height: 18px;
+}
+
+.heder__product {
+  width: 49px;
+  height: 16px;
+  top: 42px;
+  left: 671px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 16px;
+  color: #150101;
+}
+
+.heder__pricing {
+  width: 44px;
+  height: 16px;
+  top: 42px;
+  left: 760px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 16px;
+  color: #150101;
+}
+
+.heder__testimonials {
+  width: 80px;
+  height: 16px;
+  top: 42px;
+  left: 844px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 16px;
+  color: #150101;
+}
+
+.heder__contact-us {
+  width: 120px;
+  height: 20px;
+  top: 42px;
+  left: 990px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 16px;
+  color: #150101;
+}
+
+.heder__button {
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #D23166;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 165px;
+  height: 49px;
+  left: 1245px;
+  top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.heder-info__cap {
+  margin-top: 290px;
+  margin-left: 167px;
+  position: absolute;
+  width: 250px;
+  height: 16px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+}
+
+.heder-info__ice {
+  margin-top: 315px;
+  margin-left: 167px;
+  position: absolute;
+  width: 665;
+  height: 130;
+  font-family: "Fredoka One", cursive;
+  font-weight: 700;
+  font-size: 57.33px;
+  line-height: 69.08px;
+  color: #0F0101;
+}
+
+.heder-info__pink-ice {
+  color: #D23166;
+}
+
+.heder__button-down {
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #D23166;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 165px;
+  height: 49px;
+  left: 167px;
+  top: 640px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.heder-info__text {
+  position: absolute;
+  width: 560px;
+  height: 78px;
+  margin-top: 489px;
+  margin-left: 167px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 20px;
+}
+
+.heder-info__img-ice {
+  width: 597;
+  height: 597;
+  position: absolute;
+  margin-left: 1020px;
+  top: 160px;
+  z-index: 1;
+}
+
+.heder-info__img-milk {
+  position: absolute;
+  width: 852;
+  height: 549;
+  left: 811px;
+  top: 280px;
+  z-index: 2;
+}
+
+.owale {
+  opacity: 0.1;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #D23166;
+  position: absolute;
+  width: 365px;
+  height: 353px;
+  left: 1163px;
+  top: 411px;
+}
+
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  width: 1117px;
+  height: 200px;
+  right: 500px;
+  top: 962px;
+  position: absolute;
+}
+
+.title {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.section-background {
+  margin-top: 1263px;
+  width: 100%;
+  height: 545px;
+  background-color: #e7c2ce;
+  opacity: 0.25;
+  position: absolute;
+}
+
+.info-sugar {
+  left: 262px;
+  top: 1401.59px;
+  position: absolute;
+  width: 349px;
+  height: 98.27px;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 49px;
+}
+
+.ice-cream {
+  top: 1190px;
+  left: 980px;
+  position: absolute;
+}
+
+.info-ice {
+  color: #150101;
+  width: 448px;
+  height: 59px;
+  left: 262px;
+  top: 1518px;
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.info-details {
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #D23166;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 165px;
+  height: 49px;
+  left: 262px;
+  top: 1626px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.product-title {
+  position: absolute;
+  width: 270px;
+  height: 61px;
+  left: 850px;
+  top: 1944px;
+  font-family: "Hind Madurai";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 61px;
+}
+
+.product-list {
+  margin-top: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0);
+}
+
+.product-list__ice-cream {
+  position: absolute;
+  width: 110px;
+  height: 21px;
+  left: 375px;
+  top: 2069px;
+}
+
+.product-list__cayenne-chocolate {
+  position: absolute;
+  width: 187px;
+  height: 21px;
+  left: 507px;
+  top: 2069px;
+}
+
+.product-list__cake-batter {
+  position: absolute;
+  width: 116px;
+  height: 21px;
+  left: 734px;
+  top: 2069px;
+}
+
+.product-list__candy-cane {
+  position: absolute;
+  width: 111px;
+  height: 21px;
+  left: 890px;
+  top: 2069px;
+}
+
+.product-list__platters {
+  position: absolute;
+  width: 97px;
+  height: 23px;
+  left: 1041px;
+  top: 2068px;
+}
+
+.product-list__dessert {
+  position: absolute;
+  width: 84px;
+  height: 23px;
+  left: 1178px;
+  top: 2068px;
+}
+
+.product-list__ice-cream:hover {
+  text-decoration: underline;
+  text-decoration-color: #D64374;
+  opacity: 1;
+}
+
+.product-list__grean-ice {
+  position: absolute;
+  width: 580px;
+  height: 415px;
+  left: 251px;
+  top: 2140px;
+}/*# sourceMappingURL=style.css.map */
